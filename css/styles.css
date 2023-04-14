@@ -1,7 +1,0 @@
-.container {
-  display: flex;
-}
-
-.days-of-week {
-  flex-basis: calc(100% / 7);
-}

@@ -6,6 +6,7 @@
   max-width: 575px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  align-items: center;
 }
 
 .row {
@@ -13,22 +14,10 @@
   flex-wrap: wrap;
 }
 
-.column-full,
-.column-half {
-  width: 100%;
+.days-of-week {
+  flex-basis: calc(100% / 7);
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 900px;
-  }
-
-  .column-full,
-  .column-half {
-    padding: 0 0.75rem;
-  }
-
-  .column-half {
-    width: 50%;
-  }
+.third-row {
+  align-items: center;
 }
