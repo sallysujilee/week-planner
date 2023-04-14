@@ -1,9 +1,13 @@
+* {
+  font-family: "Patrick Hand", sans-serif;
+}
+
 .hidden {
   display: none !important;
 }
 
 .container {
-  max-width: 575px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5rem;
   align-items: center;
@@ -70,4 +74,9 @@
 #time-choices {
   margin-right: 10px;
   margin-bottom: 5px;
+}
+
+.row,
+.column {
+  padding: 10px;
 }
